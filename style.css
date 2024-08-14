@@ -1,0 +1,142 @@
+/* HOME PAGE TABLE CSS */
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+/* CONTACT US PAGE FORM CSS */
+form {
+  width: 500px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+textarea {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+/* LOGO IMAGE CSS */
+img {
+  background-color: pink;
+}
+/* CONTACT US PAGE HEADING CSS  */
+.contact {
+  text-align: center;
+  color: red;
+}
+/* NAVIGATION PAGE */
+.nav {
+  background-color: pink;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+/* NAVIAGTION PAGE */
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* NAVIAGTION PAGE */
+.a {
+  list-style: none;
+  display: inline-block;
+}
+/* NAVIAGTION PAGE CSS*/
+.l{
+  list-style: none;
+  margin-right: 15px;
+  display: inline-block;
+}
+/* NAVIAGTION PAGE CSS*/
+.A{
+    list-style: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+/* NAVIAGTION PAGE CSS*/
+.form {
+  width: 500px;
+  padding: 20px;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+input[type="text"],textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+textarea {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+textarea {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px;
+}
+/* NAVIAGTION PAGE CSS*/
+.input {
+  border-color: black;
+}
+/* NAVIAGTION PAGE CSS*/
+.input {
+  border-color: black;
+}
+/* NAVIAGTION PAGE CSS*/
+.nput {
+  border-color: red;
+}
+/* ABOUT US PAGE CSS */
+.H1{
+  color: blue;
+  text-align: center;
+}
+.f{
+  color: black;
+  list-style: none;
+}
+.x{
+  color: black;
+  list-style: none;
+}
