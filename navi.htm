@@ -1,81 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation Bar</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <!-- FORM CSS -->
-    <!-- <style type="text/css">
-        .nav{
-            background-color: pink; padding-right: 15%; padding-left: 15%;
-        }
-        .div{
-            display: flex; align-items: center; justify-content: space-between; 
-        }
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+                                <!-- HEADER -->
+  <header>
+    <nav>
+      <img
+        src="C:\Users\lenovo\OneDrive\Pictures\logo.jpg"
+        class="logo"
+        width="160px"
+        height="90px"
+        />
+        <ul>
+          <li><a href="./home.htm">HOME</a></li>
+          <li><a href="./teams.htm">TEAMS</a></li>
+          <li><a href="./signin.htm">SIGN UP</a></li>
+        </ul>
 
-        .a{
-            list-style: none; display: inline-block; 
-        } 
-        .a.. {
-           list-style: none; margin-right: 25px; display: inline-block;
-        }
+        </nav>
+        </header>
+                              
+        <body>
+        <h1 class="contact">SIGN UP/SIGN IN</h1>
+        <!-- LOGIN FORM -->
+        <form style="margin: 400px; text-align: center; margin-top: 250px">
+          <label for="name">FULL NAME</label><br />
+          <input type="text" name="name" placeholder="Enter Your Full Name" /><br />
+          <label for="email">EMAIL</label><br />
+          <input type="email" name="email" placeholder="Enter Your Email" /><br />
+          <label for="phonenumber">PHONE NUMBER</label><br />
+          <input type="number" name="phonennuber" placeholder="Enter Your Phone Number"/><br />
+          <input type="submit" /><br />
+          <button class="button" type="button">Create New Account</button>
+        </form> 
+  
 
-        .form{  
-          width: 500px; 
-          padding: 20px;  
-          border: 2px solid #ccc;  
-          font-size: 18px;  
-        }
-      
-        .input[type="text"], textarea {
-          width: 100%;  
-          height: 40px;  
-          margin-bottom: 10px;  
-        }
-
-        .input[type="email"], textarea {
-          width: 100%;  
-          height: 40px;  
-          margin-bottom: 10px;
-        }
-
-        .nput[type="number"], textarea {
-          width: 100%;  
-          height: 40px;  
-          margin-bottom: 10px;
-        }
-        
-        input[type="submit"], textarea {
-            width: 150px; 
-            height: 50px;  
-            font-size: 18px;  
-            padding: 10px;
-        }
-        
-        </style> -->
-      
-    
-</head>
-            <!-- NAVIGATION BAR OR HEADER -->
-<body>
-        <nav class="nav"></nav>
-            <div class="div"></div>
-                <div class="logo"><img src="C:\Users\lenovo\Downloads\unnamed.png"></a></div>
-            
-        <a class="a" href="./home.htm">HOME</a>
-        <a class="l" href="./loginpage.htm">CONTACT US</a>
-        <a class="A" href="./about.htm">ABOUT US</a>
-        </nav> 
-            <!-- LOGIN FORM -->
-            <form class="form" style="margin: 400px; text-align: center; margin-top: 250px;">
-            <label class=".input" for="name">FULL NAME</label><br>
-            <input  type="text" name="name" placeholder="Enter Your Full Name"><br>
-            <label class=".input" for="email">EMAIL</label><br>
-            <input type="email" name="email" placeholder="Enter Your Email"><br>
-            <label class="nput" for="phonenumber">PHONE NUMBER</label><br>
-            <input type="number" name="phonenumber" placeholder="Enter Your Phone Number"><br>
-            <input type="submit">
-        </form>
- </body>
+  <footer>
+  <h2 style="background-color: khaki; color: darkred; text-align: center;"> UPCOMING SERIES & MEGA EVENTS</h2>
+    <ul style="background-color: black; color: blue;">
+      <li>WBBL 2024</li>
+      <li>WCPL 2024</li>
+      <li>The Hundred (Women)<li>
+      <li>The Hundred (Men)</li>
+      <li>West Indies vs South Africa</li>
+      <li>England vs Sri Lanka</li>
+      <li> Pakistan vs Bangladesh</li>
+      <li>Vitality Blast 2024</li>
+      <li>CPL 2024</li>
+      <li>County Championship Div2</li>
+      <li>County Championship Div1</li>
+      <li>Women's Championship</li>
+      <li>World Test Championship</li>
+      <li>ICC Women's T20 World Cup</li>
+    </ul>
+</footer>
 </html>

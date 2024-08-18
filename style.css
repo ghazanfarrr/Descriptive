@@ -1,10 +1,54 @@
-/* HOME PAGE TABLE CSS */
+/* ICC RANKINGS OF PLAYERS IN ALL FORMATS */
 table,
 tr,
 td {
   border: 1px solid black;
 }
-/* CONTACT US PAGE FORM CSS */
+.ct {
+  color: white;
+  background: #000;
+  font-size: 50px;
+  font-family: cursive;
+}
+.mens {
+  color: white;
+  opacity: 100%;
+  font-size: 20px;
+}
+.teamss,
+tr,
+td {
+  background-color: black;
+  opacity: 75%;
+  width: 792px;
+  height: 65px;
+  color: white;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+.card {
+  background: blue;
+  color: white;
+  width: 270px;
+  height: 400px;
+  margin: 30px;
+  border-radius: 15px;
+}
+.card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card h1 {
+  padding: 10px;
+}
+
+/* SIGN IN/SIGN UP PAGE FORM CSS */
 form {
   width: 500px;
   padding: 20px;
@@ -42,43 +86,39 @@ textarea {
   background-color: blue;
   color: white;
 }
-/* LOGO IMAGE CSS */
-img {
-  background-color: pink;
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+/* HEADER CSS */
+nav {
+  background-color: lightblue;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+}
+nav ul {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  color: black;
+  line-height: 60px;
+  padding: 5px 35px;
+  font-size: 20px;
 }
 /* CONTACT US PAGE HEADING CSS  */
 .contact {
   text-align: center;
   color: red;
-}
-/* NAVIGATION PAGE */
-.nav {
-  background-color: pink;
-  padding-right: 15%;
-  padding-left: 15%;
-}
-/* NAVIAGTION PAGE */
-.div {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-/* NAVIAGTION PAGE */
-.a {
-  list-style: none;
-  display: inline-block;
-}
-/* NAVIAGTION PAGE CSS*/
-.l{
-  list-style: none;
-  margin-right: 15px;
-  display: inline-block;
-}
-/* NAVIAGTION PAGE CSS*/
-.A{
-    list-style: none;
-    margin-right: 15px;
-    display: inline-block;
+  flex-direction: column;
 }
 /* NAVIAGTION PAGE CSS*/
 .form {
@@ -88,7 +128,8 @@ img {
   font-size: 18px;
 }
 
-input[type="text"],textarea {
+input[type="text"],
+textarea {
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
@@ -128,15 +169,15 @@ textarea {
   border-color: red;
 }
 /* ABOUT US PAGE CSS */
-.H1{
+/* .H1 {
   color: blue;
   text-align: center;
 }
-.f{
+.f {
   color: black;
   list-style: none;
 }
-.x{
+.x {
   color: black;
   list-style: none;
-}
+} */
