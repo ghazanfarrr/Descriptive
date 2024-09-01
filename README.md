@@ -1,2 +1,2 @@
 # PRACTISE
- it is just for the purpose of practicE
+ it is just for the purpose of practice
